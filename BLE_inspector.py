@@ -1,14 +1,12 @@
 import bluetooth
 import smtplib, ssl
 import datetime
-import subprocess
-import requests
 import email, smtplib, ssl
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from ast import literal_eval
+
 
 
 '''
