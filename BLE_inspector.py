@@ -90,6 +90,6 @@ while True:
      
     else:
         print('Not Found')
-        print(parkScan)
+        print("Still scanning")
         
 
