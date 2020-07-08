@@ -20,6 +20,7 @@ scanCount = 0
 outMessage = {}
 
 #Function for sending email message through gmail account
+#Thank you Real Python
 #Needs to be customized with sender and receiver email addresses + password
 
 def send_email(the_message):
