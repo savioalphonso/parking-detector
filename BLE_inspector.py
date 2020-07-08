@@ -8,7 +8,9 @@ from email.mime.text import MIMEText
 
 
 '''
-BLE Inspector code 
+BLE Inspector
+Python 3 
+Only external module needed is PyBluez
 
 '''
 
