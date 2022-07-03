@@ -1,3 +1,21 @@
 # Parking Enforcement Detector
 
- The BLE inspector project was motivated by the desire to develop a creative technological solution for monitoring the status of a parked vehicle in a limited duration free-parking zone. The solution to this problem could allow a vehicle to park for the maximum possible duration while eliminating the risk of ticketing. The approach to the problem was to utilize a Raspberry Pi computer powered by a cell-phone power bank for monitoring, and transmission, of relevant Bluetooth signals within the proximity of the vehicle. All code was written in Python 3 and Pybluez was the library used for all Bluetooth functionality. The result of this project is a functioning prototype that acts as a proof of concept.
+## Installation on a Raspberry Pi
+
+### Assuming Ubuntu 22.04 & Python 3
+
+1. `sudo apt install python3-dev`
+2. `sudo apt install libbluetooth-dev`
+3. `sudo apt install gcc`
+4. `sudo apt install python3.10-venv`
+4. `git clone https://github.com/savioalphonso/parking-detector.git`
+5. `cd parking-detector`
+6. `python3 -m venv venv`
+7. `source venv/bin/activate`
+8. `cd ..`
+9. `git clone https://github.com/pybluez/pybluez.git`
+10. `cd pybluez`
+11. `python3 setup.py install`
+12. `cd ..`
+13. `cd parking-detector`
+14. `python3 BLE_inspector.py`
